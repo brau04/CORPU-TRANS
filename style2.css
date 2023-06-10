@@ -1,0 +1,14 @@
+body {
+	margin: 0;
+	font-family: 'Prompt', sans-serif;
+	background: #ffffff
+}
+  
+.responsive1 {
+  width: 40vw;
+  max-width: 400vw;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

@@ -1,0 +1,26 @@
+body{
+	margin: 0;
+	background: #55cdfc;
+}
+h1 {
+	 font-family: 'Shrikhand', cursive;
+	 font-size:10vw
+	 }
+
+a {text-decoration: none;
+	color: #f7a8b8;
+     }
+
+a:hover{
+	color:#55cdfc;
+	 }
+	 
+.example1{
+	background-color:#ffffff;
+	 position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 100%;
+}
