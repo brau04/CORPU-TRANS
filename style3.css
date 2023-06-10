@@ -63,8 +63,8 @@ main {
 }
 .Estrofa{  
     font-family: 'Zeyada', cursive;
-    width: 20vw;           /* Ancho de 150 píxeles */
-  height: 5vw; 
+    width: 35vw;           /* Ancho de 150 píxeles */
+  height: 10vw; 
     position: absolute;
     top: 10vw;
     left: 45vw;
@@ -74,13 +74,13 @@ main {
 	}
 
 	p{
-		font-size: 2vw;
+		font-size: 3vw;
 	}
 	
 .Estrofa2{  
     font-family: 'Zeyada', cursive;
-    width: 20vw;           /* Ancho de 150 píxeles */
-  height: 5vw; 
+    width: 40vw;           /* Ancho de 150 píxeles */
+  height: 10vw; 
     position: absolute;
     top: 18vw;
     left: 42vw;
