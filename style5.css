@@ -1,0 +1,140 @@
+.responsive {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+   display: block;
+  margin-left: auto;
+  margin-right: auto;
+   opacity: 0.8;
+}
+
+.regresar {
+  width: 100%;
+  max-width: 50px;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+  top: 1vw;
+  left: 1vw;
+  z-index: 2;
+}
+
+.responsive {
+  animation: zoom 5s infinite;
+}
+
+@keyframes zoom {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+main {
+  column-count:2;
+}
+
+.Titulo {
+	font-size:4vw;
+	font-family: 'Bebas Neue', sans-serif;
+	color:#55cdfc;
+ 	
+    position: absolute;
+    top: 15vw;
+    left: -12vw;
+    transform: translate(-50%, -50%);
+	-webkit-transform: rotate(90deg);
+	z-index: 1;
+}
+
+p{
+    font-size: 4vw;
+	}
+
+.Estrofa{  
+    font-family: 'Zeyada', cursive;
+    width: 40vw;           /* Ancho de 150 píxeles */
+  height: 10vw; 
+    position: absolute;
+    top: 10vw;
+    left: 50vw;
+    transform: translate(-50%, -50%);
+	z-index: 1;
+	text-align: right;
+	}
+	
+.Estrofa2{  
+    font-family: 'Zeyada', cursive;
+    width: 40vw;           /* Ancho de 150 píxeles */
+  height: 10vw; 
+    position: absolute;
+    top: 30vw;
+    left: 40vw;
+    transform: translate(-50%, -50%);
+	z-index: 1;
+	}
+	
+.Estrofa3{  
+    font-family: 'Zeyada', cursive;
+    width: 40vw;           /* Ancho de 150 píxeles */
+  height: 10vw; 
+    position: absolute;
+    top: 50vw;
+    left: 50vw;
+    transform: translate(-50%, -50%);
+	z-index: 1;
+	text-align: right;
+	}
+	
+.Estrofa4{  
+    font-family: 'Zeyada', cursive;
+    width: 40vw;           /* Ancho de 150 píxeles */
+  height: 10vw; 
+    position: absolute;
+    top: 75vw;
+    left: 35vw;
+    transform: translate(-50%, -50%);
+	z-index: 1;
+	}
+	
+.Estrofa5{  
+    font-family: 'Zeyada', cursive;
+    width: 40vw;           /* Ancho de 150 píxeles */
+  height: 10vw; 
+    position: absolute;
+    top: 100vw;
+    left: 60vw;
+    transform: translate(-50%, -50%);
+	z-index: 1;
+	text-align: right;
+	}
+	
+.Estrofa6{  
+    font-family: 'Zeyada', cursive;
+    width: 40vw;           /* Ancho de 150 píxeles */
+  height: 10vw; 
+    position: absolute;
+    top: 125vw;
+    left: 45vw;
+    transform: translate(-50%, -50%);
+	z-index: 1;
+	}
+	
+.Estrofa7{  
+    font-family: 'Zeyada', cursive;
+    width: 40vw;           /* Ancho de 150 píxeles */
+  height: 10vw; 
+    position: absolute;
+    top: 145vw;
+    left: 55vw;
+    transform: translate(-50%, -50%);
+	z-index: 1;
+	text-align: right;
+	}
